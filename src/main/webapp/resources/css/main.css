@@ -1,0 +1,164 @@
+.option-template-container {
+    display: none;
+}
+
+.open-position-template {
+    display: none;
+}
+
+.button-selected {
+    background-color: #000000;
+}
+
+.hidden {
+    display: none;
+}
+
+.options {
+
+}
+
+.options.left-main-side {
+    float: left;
+
+    width: 500px;
+}
+
+.account-container.col-sm-2 {
+    float: right;
+}
+
+.right-main-side {
+    float: right;
+    width: 752px;
+}
+
+.account-container {
+    float: right;
+}
+
+.account-container label {
+    margin-bottom: 0px;
+}
+
+.account-container input {
+    margin-bottom: 1px;
+}
+
+
+.account-container {
+    width: 300px;
+}
+
+.account-container {
+
+}
+
+.account-container label {
+
+}
+
+.reg-button {
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #252525;
+    font-family: 'PFDinTextPro-Regular';
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: normal;
+    background: transparent;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 0;
+    text-shadow: none;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    outline: none;
+    color: #5f1f1c;
+    background: #ecc00f;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.go-button {
+    margin-top: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #000;
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(133, 133, 133, 1);
+    -moz-box-shadow: inset 0px 0px 0px 1px rgba(133, 133, 133, 1);
+    box-shadow: inset 0px 0px 0px 1px rgba(133, 133, 133, 1);
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0, #525252),
+            color-stop(1, #1E1E1E)
+    );
+    background-image: -o-linear-gradient(bottom, #525252 0%, #1E1E1E 100%);
+    background-image: -moz-linear-gradient(bottom, #525252 0%, #1E1E1E 100%);
+    background-image: -webkit-linear-gradient(bottom, #525252 0%, #1E1E1E 100%);
+    background-image: -ms-linear-gradient(bottom, #525252 0%, #1E1E1E 100%);
+    background-image: linear-gradient(to bottom, #525252 0%, #1E1E1E 100%);
+}
+
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%
+}
+
+.customer-nav {
+    width: 148px;
+}
+
+.customer-container {
+    min-height: 1040px;
+}
+
+.customer-menu {
+    background: #f7fafc;
+    width: 219px;
+    padding: 20px;
+    float: left;
+    min-height: 100%;
+}
+
+.customer-table {
+    float: left;
+    min-height: 1040px;
+}
+
+#RealRecaptcha {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#DemoRecaptcha {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.login-error {
+    color: #000000;
+}
+
+.container.head-container{
+    min-width: 1300px;
+}
+
+.container.head-container * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.menuheader {
+    margin-top: 36px;
+    float: right;
+    margin-right: 15px;
+    background: transparent;
+    border-radius: 0;
+}

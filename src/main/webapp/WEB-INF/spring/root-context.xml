@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:beans="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Root Context: defines shared resources visible to all other web components -->
+
+    <context:component-scan base-package="com.goptions.bp"/>
+
+    <mvc:annotation-driven/>
+
+    <tx:annotation-driven/>
+
+    <beans>
+
+        <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+              destroy-method="close">
+            <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+            <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/binary_db"/>
+            <property name="user" value="root"/>
+            <property name="password" value="1234"/>
+            <property name="maxPoolSize" value="50"/>
+            <property name="minPoolSize" value="10"/>
+            <property name="maxStatements" value="0"/>
+            <property name="testConnectionOnCheckout" value="true"/>
+        </bean>
+
+
+        <bean id="sessionFactory"
+              class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+            <property name="dataSource" ref="dataSource"/>
+            <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
+            <property name="packagesToScan" value="com.goptions.bp.model"/>
+        </bean>
+
+
+        <bean id="transactionManager"
+              class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+            <property name="sessionFactory" ref="sessionFactory"/>
+        </bean>
+
+
+        <!-- pay attention that taskExecutor and calculatorExecutor are similar -->
+        <bean id="hedgeExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+            <property name="corePoolSize" value="25"/>
+        </bean>
+
+        <!-- pay attention that taskExecutor and calculatorExecutor are similar -->
+        <bean id="taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+            <property name="corePoolSize" value="25"/>
+            <!--
+            <property name="maxPoolSize" value="200" />
+            <property name="queueCapacity" value="200" />
+            -->
+        </bean>
+
+        <bean id="calculatorExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+            <property name="corePoolSize" value="25"/>
+            <!--
+            <property name="maxPoolSize" value="200" />
+            <property name="queueCapacity" value="200" />
+            -->
+        </bean>
+
+        <bean id="quartzScheduler"
+              class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+            <property name="dataSource" ref="dataSource"/>
+            <property name="transactionManager" ref="transactionManager"/>
+            <property name="configLocation" value="classpath:/quartz.properties"/>
+            <property name="applicationContextSchedulerContextKey" value="applicationContext"/>
+            <property name="autoStartup" value="false"/>
+        </bean>
+
+        <beans profile="prod">
+            <bean id="generalSettings" class="org.springframework.beans.factory.config.MapFactoryBean">
+                <property name="sourceMap">
+                    <map>
+                        <entry key="DOMAIN_HOST" value="http://unityoptions.com" />
+                        <entry key="STREAMER_HOST" value="http://unityoptions.com:9090/" />
+                        <entry key="RABBIT_HOST" value="unityoptions.com" />
+                    </map>
+                </property>
+            </bean>
+        </beans>
+
+        <beans profile="dev">
+            <bean id="generalSettings" class="org.springframework.beans.factory.config.MapFactoryBean">
+                <property name="sourceMap">
+                    <map>
+                        <entry key="DOMAIN_HOST" value="http://localhost:8082" />
+                        <entry key="STREAMER_HOST" value="http://localhost:9090/" />
+                        <entry key="RABBIT_HOST" value="localhost" />
+                    </map>
+                </property>
+            </bean>
+        </beans>
+
+        <beans>
+            <mvc:interceptors>
+                <beans:bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+                    <beans:property name="paramName" value="lang"/>
+                </beans:bean>
+            </mvc:interceptors>
+        </beans>
+    </beans>
+</beans>

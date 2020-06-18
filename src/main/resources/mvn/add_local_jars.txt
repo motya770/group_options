@@ -1,0 +1,1 @@
+ mvn install:install-file -Dfile=/work/feed/atfeed-javasdk-noarch/api_sdk/javax-crypto -DgroupId=com.activetick -DartifactId=javax-crypto -Dpackaging=jar -Dversion=2.1.4 -DgeneratePom=true

@@ -1,0 +1,2437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYSIS_IN_BACKGROUND" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a341b2db-78f0-439b-9dcd-e0384f7661a3" name="Default" comment="1) fixed project to run">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/hotswap_agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_4_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/plat_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/plat_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/plat_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/plat_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/findbugs-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_3_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/plat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/goptions/bp/config/ApplicationStartup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goptions/bp/config/ApplicationStartup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/goptions/bp/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goptions/bp/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/config/ApplicationStartup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/AccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/GraphController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/OptionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/PagesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/PositionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/SettingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/admin/AdAccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/admin/AdAssetController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/admin/AdBActivityController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/admin/AdCurrencySettingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/admin/AdOptionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/admin/AdOptionCreatorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/admin/AdPositionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/admin/AdQuoteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/admin/AdReportController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/admin/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/controller/customer/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/job/GeneralJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/job/option/CloseOptionJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/job/option/OpenOptionJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/job/option/StartOptionTradeJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/job/position/CancelPositionJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/job/position/OpenPositionJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/job/quote/CreateQuoteJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/job/quote/QuoteEvictionJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/IEventManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/IMoneyManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/IOptionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/IPositionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/IQuoteManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/cache/IQuoteCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/cache/QuoteCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/AccountManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/AssetManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/EventManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/EventManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/MoneyManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/OptionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/PositionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/QuoteManager$QuoteCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/QuoteManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/job/CoreOptionJobExecutor$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/job/CoreOptionJobExecutor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/job/CoreOptionJobExecutor$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/job/CoreOptionJobExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/job/CorePositionJobExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/scheduler/SchedulerManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/impl/scheduler/SchedulerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/job/ICoreOptionJobExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/job/ICorePositionJobExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/core/manager/scheduler/ISchedulerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/IAccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/IAssetDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/IBActivityDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/IBankDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/ICurrencySettingDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/IEntityDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/IOptionCreatorDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/IOptionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/IPositionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/IQuoteDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/ITimeFrameDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/impl/AccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/impl/AssetDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/impl/BActivityDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/impl/BankDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/impl/CurrencySettingDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/impl/EntityDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/impl/OptionCreatorDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/impl/OptionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/impl/PositionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/impl/QuoteDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/dao/impl/TimeFrameDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/exceptions/GOptionsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/exceptions/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/filter/HttpHeadFilter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/filter/HttpHeadFilter$ForceGetRequestWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/filter/HttpHeadFilter$NoBodyOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/filter/HttpHeadFilter$NoBodyResponseWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/filter/HttpHeadFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/messaging/consumer/QuotesConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/messaging/producer/QuotesSimulator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/messaging/producer/QuotesSimulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/account/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/account/AccountType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/asset/Asset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/asset/AssetStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/asset/AssetType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/bactivity/BActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/bactivity/BActivityType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/bank/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/calendar/WorkingCalendar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/currency/Currency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/currency/CurrencySetting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/entity/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/entity/IEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/help/Triple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/option/BidAmountType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/option/OpenOptionHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/option/Option.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/option/OptionConfigHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/option/OptionConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/option/OptionStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/option/OptionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/option/creator/FramesContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/option/creator/OptionCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/option/creator/OptionMask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/option/creator/TimeFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/position/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/position/PositionDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/position/PositionOutcome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/position/PositionStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/quotes/Quote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/model/quotes/QuoteData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/security/AccountDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/security/AccountDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/security/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/security/SecurityInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/IAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/IAssetService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/IBActivityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/IBankService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/ICurrencySettingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/ICustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/IMailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/IOptionCreatorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/IOptionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/IPositionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/IQuotesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/IReportService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/ITemplateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/ITuringService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/AccountService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/AssetService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/BActivityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/BankService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/CurrencySettingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/MailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/OptionCreatorService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/OptionCreatorService$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/OptionCreatorService$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/OptionCreatorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/OptionService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/OptionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/PositionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/QuotesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/ReportService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/TemplateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/service/impl/TuringService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/utils/BeansHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/utils/DateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/utils/JspHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/utils/LiveCycleApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/utils/MailUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/utils/UtilsHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/goptions/bp/utils/rabbit/RabbitConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/config/ApplicationStartup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/AccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/GraphController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/OptionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/PagesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/PositionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/SettingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/admin/AdAccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/admin/AdAssetController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/admin/AdBActivityController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/admin/AdCurrencySettingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/admin/AdOptionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/admin/AdOptionCreatorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/admin/AdPositionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/admin/AdQuoteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/admin/AdReportController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/admin/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/controller/customer/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/job/GeneralJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/job/option/CloseOptionJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/job/option/OpenOptionJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/job/option/StartOptionTradeJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/job/position/CancelPositionJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/job/position/OpenPositionJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/job/quote/CreateQuoteJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/job/quote/QuoteEvictionJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/IEventManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/IMoneyManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/IOptionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/IPositionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/IQuoteManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/cache/IQuoteCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/cache/QuoteCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/AccountManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/AssetManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/EventManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/EventManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/MoneyManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/OptionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/PositionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/QuoteManager$QuoteCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/QuoteManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/job/CoreOptionJobExecutor$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/job/CoreOptionJobExecutor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/job/CoreOptionJobExecutor$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/job/CoreOptionJobExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/job/CorePositionJobExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/scheduler/SchedulerManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/impl/scheduler/SchedulerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/job/ICoreOptionJobExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/job/ICorePositionJobExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/core/manager/scheduler/ISchedulerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/IAccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/IAssetDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/IBActivityDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/IBankDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/ICurrencySettingDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/IEntityDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/IOptionCreatorDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/IOptionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/IPositionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/IQuoteDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/ITimeFrameDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/impl/AccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/impl/AssetDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/impl/BActivityDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/impl/BankDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/impl/CurrencySettingDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/impl/EntityDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/impl/OptionCreatorDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/impl/OptionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/impl/PositionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/impl/QuoteDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/dao/impl/TimeFrameDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/exceptions/GOptionsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/exceptions/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/filter/HttpHeadFilter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/filter/HttpHeadFilter$ForceGetRequestWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/filter/HttpHeadFilter$NoBodyOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/filter/HttpHeadFilter$NoBodyResponseWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/filter/HttpHeadFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/messaging/consumer/QuotesConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/messaging/producer/QuotesSimulator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/messaging/producer/QuotesSimulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/account/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/account/AccountType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/asset/Asset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/asset/AssetStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/asset/AssetType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/bactivity/BActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/bactivity/BActivityType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/bank/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/calendar/WorkingCalendar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/currency/Currency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/currency/CurrencySetting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/entity/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/entity/IEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/help/Triple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/option/BidAmountType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/option/OpenOptionHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/option/Option.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/option/OptionConfigHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/option/OptionConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/option/OptionStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/option/OptionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/option/creator/FramesContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/option/creator/OptionCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/option/creator/OptionMask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/option/creator/TimeFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/position/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/position/PositionDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/position/PositionOutcome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/position/PositionStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/quotes/Quote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/model/quotes/QuoteData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/security/AccountDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/security/AccountDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/security/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/security/SecurityInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/IAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/IAssetService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/IBActivityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/IBankService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/ICurrencySettingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/ICustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/IMailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/IOptionCreatorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/IOptionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/IPositionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/IQuotesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/IReportService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/ITemplateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/ITuringService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/AccountService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/AssetService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/BActivityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/BankService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/CurrencySettingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/MailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/OptionCreatorService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/OptionCreatorService$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/OptionCreatorService$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/OptionCreatorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/OptionService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/OptionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/PositionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/QuotesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/ReportService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/TemplateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/service/impl/TuringService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/utils/BeansHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/utils/DateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/utils/JspHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/utils/LiveCycleApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/utils/MailUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/utils/UtilsHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/goptions/bp/utils/rabbit/RabbitConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/db/quartz_tables_mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/db/updates.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/forgotPassword.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/i18n/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/i18n/messages_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/i18n/messages_ru.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/mvn/add_local_jars.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/quartz.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/amqp-client-3.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/aspectjrt-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/c3p0-0.9.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/c3p0-0.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/commons-dbcp2-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/commons-lang3-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/commons-pool2-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/hibernate-core-4.3.6.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/httpclient-4.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/httpcore-4.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jandex-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/javassist-3.16.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jsoup-1.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/log4j-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/mail-1.4.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.36.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/ognl-3.0.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/persistence-api-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/quartz-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/quartz-jobs-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/thymeleaf-2.1.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/unbescape-1.1.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/root-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/tags/adminpage.tag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/tags/sitepage.tag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/about.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/account/activities-table.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/account/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/account/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/account/new-entity.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/account/positions-table.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/account/show.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/asset/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/asset/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/asset/new-entity.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/asset/show.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/bactivity/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/currency/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/currency/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/currency/new-entity.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/currency/show.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/option/creator/entity.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/option/creator/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/option/creator/show.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/option/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/option/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/option/new-entity.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/option/options-configuration.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/option/show.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/paging.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/position/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/position/show.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/quote/history.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/quote/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/admin/report/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/confirm/mail-response.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/customer/balance-activities.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/customer/customer-menu.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/customer/customer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/customer/failed-positions.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/customer/paging.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/customer/past-positions.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/customer/settings.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/customer/unfinished-positions.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/customer/wallet-operations.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/index-test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/lean.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/main/analitics.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/main/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/main/loginForm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/main/menu.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/platform.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/platform_old.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/platform_old1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/registration.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/technical-analysis.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/trade/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/trade/about.gsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/trade/index-1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/trade/index-2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/trade/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/trade/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/trade/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/images/ui-bg_diagonals-thick_18_b81900_40x40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/images/ui-bg_diagonals-thick_20_666666_40x40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/images/ui-bg_flat_10_000000_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/images/ui-bg_glass_100_f6f6f6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/images/ui-bg_glass_100_fdf5ce_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/images/ui-icons_228ef1_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/images/ui-icons_ef8c08_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/images/ui-icons_ffd27a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/jquery-ui.theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/jquery.datetimepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Light/PFDinTextPro-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Light/PFDinTextPro-Light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Light/PFDinTextPro-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Light/PFDinTextPro-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Medium/PFDinTextPro-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Medium/PFDinTextPro-Medium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Medium/PFDinTextPro-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Medium/PFDinTextPro-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Regular/PFDinTextPro-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Regular/PFDinTextPro-Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Regular/PFDinTextPro-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Regular/PFDinTextPro-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Thin/PFDinTextPro-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Thin/PFDinTextPro-Thin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Thin/PFDinTextPro-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/PFDinTextPro-Thin/PFDinTextPro-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/Vijaya-Bold/Vijaya-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/Vijaya-Bold/Vijaya-Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/Vijaya-Bold/Vijaya-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/Vijaya-Bold/Vijaya-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/Vijaya/Vijaya.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/Vijaya/Vijaya.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/Vijaya/Vijaya.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/fonts/Vijaya/Vijaya.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/main/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/polyglot-language-switcher.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/trade/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/trade/camera.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/trade/errors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/trade/intlTelInput.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/trade/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/trade/mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/trade/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/css/trade/touchTouch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/fonts/trade/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/fonts/trade/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/fonts/trade/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/fonts/trade/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/fonts/trade/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/fonts/trade/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/fonts/trade/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/fonts/trade/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/fonts/trade/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/fonts/trade/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/main/Untitled-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/main/bg_footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/main/bg_header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/main/filter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/main/graf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/main/handshake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/main/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/main/info-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/main/info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/main/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/main/mainLogo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/main/menu_profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/main/open_pos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/main/pupup-info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/apple-touch-icon-retina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/arrow-down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/arrow1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/arrowquote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/arrowquote2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/bg_row3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/bgmain.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/camera-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_loading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_nav_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_nav_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_shadow_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_shadow_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_shadow_ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_shadow_nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_shadow_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_shadow_se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_shadow_sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_shadow_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_title_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_title_main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_title_over.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancy_title_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancybox-x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancybox-y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancybox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancybox_loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancybox_overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/fancybox_sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/image-blank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/fancybox_img/preloader.GIF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/flags/de.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/flags/es.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/flags/fr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/flags/gb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/flags/it.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/flags/ru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/forquote2_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/forquote2_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/grails_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/grails_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/indicator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/intelInput/flags.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/intelInput/flags@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/leftnav_btm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/leftnav_midstretch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/leftnav_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page1_icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page1_icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page1_icon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page1_icon4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page1_img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page2_bigimg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page2_bigimg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page2_bigimg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page2_bigimg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page2_bigimg6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page2_bigimg7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page2_img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page2_img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page2_img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page2_img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page2_img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page2_img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page2_img7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page3_img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page3_img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page3_img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page3_img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page3_img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page3_img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page3_img7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page3_img8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page3_img9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page4_img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page4_img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page4_img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page4_img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page4_img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page4_img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/page4_img7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/pagimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/patternhover1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/searchimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/skin/database_add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/skin/database_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/skin/database_edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/skin/database_save.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/skin/database_table.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/skin/exclamation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/skin/house.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/skin/information.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/skin/shadow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/skin/sorted_asc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/skin/sorted_desc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/smalllogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/springsource.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/images/trade/totop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/csrf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/hightstock/highstock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/hightstock/modules/exporting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/hightstock/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/jquery-1.11.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/jquery.datetimepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/jquery.polyglot.language.switcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/lightstreamer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/main/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/accounts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/bidder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/customer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/graph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/notifications.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/options-creator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/positions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/protection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/registration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/streamer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/timer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/plat/validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/TMForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/camera.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/intelInput/intlTelInput.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/intelInput/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/jquery-migrate-1.2.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/jquery.equalheights.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/jquery.mobile.customized.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/jquery.mobilemenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/jquery.touchSwipe.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/jquery.ui.totop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/superfish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/tm-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/js/trade/touchTouch.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/lib/bootstrap/css/bootstrap-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/lib/bootstrap/css/bootstrap-responsive.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/lib/bootstrap/css/bootstrap-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/lib/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/lib/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/lib/bootstrap/img/glyphicons-halflings-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/lib/bootstrap/img/glyphicons-halflings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/lib/bootstrap/js/bootstrap-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/lib/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plat-1.0.0-BUILD-SNAPSHOT/resources/lib/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/goptions/plat/Test.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.19.0" />
+      </map>
+    </option>
+  </component>
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/plat$test.coverage" NAME="test Coverage Results" MODIFIED="1426698933242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - binary_db@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - binary_db@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="binary_db" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mysql</find>
+      <find>reso</find>
+      <find>authority</find>
+      <find>rabbit</find>
+      <find>registration</find>
+      <find>_graph</find>
+      <find>feed</find>
+      <find>&quot;asset&quot;</find>
+      <find>getLiveTrade</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/platform_old.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1TWEiRwEXtD3nqEvxKqatghfMYu" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>UseJBColor</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth0" value="61" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth1" value="107" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth2" value="97" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_flatWidth3" value="960" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth0" value="206" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth1" value="210" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth2" value="215" />
+    <property name="FileHistory.org.zmlx.hg4idea.provider.HgHistoryProvider_treeWidth3" value="594" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kudelin/Desktop/work/projects/enemy_options/src/main/webapp/resources/js/plat/graph.js&#10;graph&#9;FILE&#9;file:///Users/kudelin/Desktop/work/projects/enemy_options/src/main/webapp/resources/js/plat/graph.js&#10;IMa&#9;PSI&#9;JAVA://com.goptions.bp.service.IMailService&#10;AccountDetails&#9;FILE&#9;file:///Users/kudelin/Desktop/work/projects/enemy_options/src/main/java/com/goptions/bp/security/AccountDetails.java&#10;AccTy&#9;PSI&#9;JAVA://com.goptions.bp.model.account.AccountType&#10;Acc&#9;FILE&#9;file:///Users/kudelin/Desktop/work/projects/enemy_options/src/main/java/com/goptions/bp/security/AccountDetails.java&#10;Option&#9;PSI&#9;JAVA://com.goptions.bp.model.option.Option&#10;AccC&#9;FILE&#9;file:///Users/kudelin/Desktop/work/projects/enemy_options/src/main/java/com/goptions/bp/controller/AccountController.java&#10;PagesC&#9;PSI&#9;JAVA://com.goptions.bp.controller.PagesController&#10;upda&#9;FILE&#9;file:///work/projects/eoptions/src/main/resources/db/updates.sql&#10;root&#9;FILE&#9;file:///work/projects/eoptions/src/main/webapp/WEB-INF/spring/root-context.xml&#10;transactionManager&#9;null&#9;null&#10;webSo&#9;PSI&#9;JAVA://com.goptions.bp.config.WebSocketConfig&#10;logger&#9;PSI&#9;JAVA://com.goptions.bp.controller.MainController#logger&#10;.format&#9;PSI&#9;JAVA://com.goptions.bp.utils.DateUtils#format&#10;index&#9;FILE&#9;file:///work/spring-workspace/goptions/src/main/webapp/WEB-INF/views/index.jsp&#10;asset&#9;PSI&#9;JAVA://com.goptions.bp.model.asset.Asset&#10;pom.&#9;FILE&#9;file:///work/spring-workspace/goptions/pom.xml&#10;index.&#9;FILE&#9;file:///work/spring-workspace/goptions/src/main/webapp/WEB-INF/views/index.jsp&#10;m&#9;FILE&#9;file:///work/spring-workspace/goptions/src/main/java/com/goptions/bp/controller/MainController.java&#10;web.&#9;FILE&#9;file:///work/spring-workspace/goptions/src/main/webapp/WEB-INF/web.xml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Android Logcat" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="project.patched.for.dcevm" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/js/trade/intelInput" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/css/images" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/css/trade" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/js/trade" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/images/main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/js/trade/intelInput" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/images/trade" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/resources/css/images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.test">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run" />
+      <option name="nocapture" value="true" />
+      <option name="backtrace" value="FULL" />
+      <envs />
+    </configuration>
+    <configuration name="ATServerAPIExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.goptions.bp.feed.lib.ATServerAPIExample" />
+      <module name="plat" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.goptions.bp.feed.lib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$APPLICATION_PLUGINS_DIR$/DCEVM_JRE" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.goptions.bp.controller.AccountController" />
+      <module name="plat" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.goptions.bp.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeedReceiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.goptions.bp.feed.FeedReceiver" />
+      <module name="plat" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.goptions.bp.feed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuotesService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$APPLICATION_PLUGINS_DIR$/DCEVM_JRE" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.goptions.bp.service.impl.QuotesService" />
+      <module name="plat" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.goptions.bp.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.goptions.bp.model.Test" />
+      <module name="plat" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.goptions.bp.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="MAIN_CLASS_NAME" value="com.goptions.plat.Test" />
+      <module name="plat" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.goptions.plat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$APPLICATION_PLUGINS_DIR$/DCEVM_JRE" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorDevice" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="clearAppDataOnEachLaunch" value="true" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="false" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.55" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_plat" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="39499" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.55" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <deployment>
+        <artifact name="plat:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_plat" />
+        <option name="HTTP_PORT" value="8082" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <output_file path="$PROJECT_DIR$/../../logs.log" is_save="true" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="39499" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="55115" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Executor" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="plat:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.FeedReceiver" />
+      <item itemvalue="Application.ATServerAPIExample" />
+      <item itemvalue="Application.AccountController" />
+      <item itemvalue="Application.QuotesService" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Tomcat Server.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.QuotesService" />
+        <item itemvalue="Application.AccountController" />
+        <item itemvalue="Application.FeedReceiver" />
+        <item itemvalue="Application.ATServerAPIExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a341b2db-78f0-439b-9dcd-e0384f7661a3" name="Default" comment="" />
+      <created>1417812582353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1417812582353</updated>
+      <workItem from="1417812590933" duration="1033000" />
+      <workItem from="1417813682696" duration="1636000" />
+      <workItem from="1417815792538" duration="30000" />
+      <workItem from="1417815850913" duration="807000" />
+      <workItem from="1417816686696" duration="848000" />
+      <workItem from="1417887881154" duration="336000" />
+      <workItem from="1417889678085" duration="1702000" />
+      <workItem from="1417892197956" duration="3151000" />
+      <workItem from="1418589811183" duration="45000" />
+      <workItem from="1418589890442" duration="4386000" />
+      <workItem from="1418598202713" duration="1106000" />
+      <workItem from="1418670485436" duration="7038000" />
+      <workItem from="1418764266244" duration="6689000" />
+      <workItem from="1418823673928" duration="4528000" />
+      <workItem from="1418848404268" duration="3751000" />
+      <workItem from="1419012465688" duration="5390000" />
+      <workItem from="1419090678084" duration="11545000" />
+      <workItem from="1419186019330" duration="631000" />
+      <workItem from="1419196133097" duration="8036000" />
+      <workItem from="1419262639570" duration="6017000" />
+      <workItem from="1419289669373" duration="608000" />
+      <workItem from="1419347433044" duration="487000" />
+      <workItem from="1419350203526" duration="15250000" />
+      <workItem from="1419512461144" duration="1370000" />
+      <workItem from="1419611108125" duration="5566000" />
+      <workItem from="1419812410300" duration="13000" />
+      <workItem from="1419883578927" duration="2584000" />
+      <workItem from="1419933186034" duration="1215000" />
+      <workItem from="1420021113854" duration="600000" />
+      <workItem from="1420033216974" duration="181000" />
+      <workItem from="1420135814869" duration="20000" />
+      <workItem from="1420187296240" duration="1341000" />
+      <workItem from="1420199846121" duration="1229000" />
+      <workItem from="1420279143494" duration="9209000" />
+      <workItem from="1420312946106" duration="265000" />
+      <workItem from="1420320625992" duration="2504000" />
+      <workItem from="1420379299985" duration="488000" />
+      <workItem from="1420379850842" duration="2569000" />
+      <workItem from="1420583526050" duration="618000" />
+      <workItem from="1421073102710" duration="16535000" />
+      <workItem from="1421170418962" duration="9362000" />
+      <workItem from="1421359433920" duration="716000" />
+      <workItem from="1421425660404" duration="33000" />
+      <workItem from="1421430471772" duration="2428000" />
+      <workItem from="1421454141535" duration="62000" />
+      <workItem from="1421471086600" duration="18000" />
+      <workItem from="1421529170310" duration="622000" />
+      <workItem from="1421535562532" duration="104000" />
+      <workItem from="1421536423256" duration="82000" />
+      <workItem from="1421570860757" duration="79000" />
+      <workItem from="1421677046493" duration="14000" />
+      <workItem from="1421744983921" duration="1217000" />
+      <workItem from="1421784866871" duration="3133000" />
+      <workItem from="1421796567871" duration="2349000" />
+      <workItem from="1421879280041" duration="1146000" />
+      <workItem from="1421885314984" duration="13734000" />
+      <workItem from="1421980541512" duration="6280000" />
+      <workItem from="1421989095484" duration="5336000" />
+      <workItem from="1422055210130" duration="8285000" />
+      <workItem from="1422256021231" duration="1525000" />
+      <workItem from="1422273298819" duration="617000" />
+      <workItem from="1422431955600" duration="3234000" />
+      <workItem from="1422437054160" duration="10940000" />
+      <workItem from="1422458274393" duration="4290000" />
+      <workItem from="1422521283060" duration="11774000" />
+      <workItem from="1422552114880" duration="2535000" />
+      <workItem from="1422614070400" duration="531000" />
+      <workItem from="1422728664781" duration="2974000" />
+      <workItem from="1422881598265" duration="49000" />
+      <workItem from="1422905851521" duration="93000" />
+      <workItem from="1422905992250" duration="4571000" />
+      <workItem from="1422968455949" duration="11667000" />
+      <workItem from="1423072656280" duration="3412000" />
+      <workItem from="1423176260771" duration="2491000" />
+      <workItem from="1423247858137" duration="600000" />
+      <workItem from="1423330149480" duration="4842000" />
+      <workItem from="1423482488120" duration="4010000" />
+      <workItem from="1423491067297" duration="2564000" />
+      <workItem from="1423508600431" duration="6273000" />
+      <workItem from="1423581580539" duration="6157000" />
+      <workItem from="1423658012347" duration="3666000" />
+      <workItem from="1423673910123" duration="3655000" />
+      <workItem from="1423754009803" duration="11258000" />
+      <workItem from="1423841433340" duration="14071000" />
+      <workItem from="1423881158724" duration="666000" />
+      <workItem from="1423930369767" duration="26000" />
+      <workItem from="1423943977524" duration="6000" />
+      <workItem from="1423970973981" duration="4099000" />
+      <workItem from="1424021466830" duration="4674000" />
+      <workItem from="1424037914306" duration="15904000" />
+      <workItem from="1424110867743" duration="4798000" />
+      <workItem from="1424129911399" duration="11692000" />
+      <workItem from="1424212873674" duration="16000" />
+      <workItem from="1424212905623" duration="12839000" />
+      <workItem from="1424298947710" duration="15412000" />
+      <workItem from="1424331579549" duration="277000" />
+      <workItem from="1424378969744" duration="3160000" />
+      <workItem from="1424389629590" duration="13557000" />
+      <workItem from="1424408294187" duration="277000" />
+      <workItem from="1424408848548" duration="19000" />
+      <workItem from="1424473015165" duration="22579000" />
+      <workItem from="1424566475953" duration="10536000" />
+      <workItem from="1424689132235" duration="19493000" />
+      <workItem from="1424771030937" duration="11003000" />
+      <workItem from="1424883475055" duration="2180000" />
+      <workItem from="1424954416853" duration="8405000" />
+      <workItem from="1425126777640" duration="624000" />
+      <workItem from="1425220310443" duration="136000" />
+      <workItem from="1425222354148" duration="13655000" />
+      <workItem from="1425317257548" duration="7540000" />
+      <workItem from="1425394004759" duration="10226000" />
+      <workItem from="1425417437351" duration="7445000" />
+      <workItem from="1425488046016" duration="5509000" />
+      <workItem from="1425514273794" duration="6370000" />
+      <workItem from="1425668367381" duration="1695000" />
+      <workItem from="1425670218881" duration="14273000" />
+      <workItem from="1425775853190" duration="9119000" />
+      <workItem from="1425790255011" duration="5378000" />
+      <workItem from="1425812635627" duration="3284000" />
+      <workItem from="1425856533858" duration="18958000" />
+      <workItem from="1425977029793" duration="16061000" />
+      <workItem from="1426069412851" duration="3399000" />
+      <workItem from="1426159461968" duration="5246000" />
+      <workItem from="1426173155821" duration="9984000" />
+      <workItem from="1426239115182" duration="4426000" />
+      <workItem from="1426255877340" duration="9512000" />
+      <workItem from="1426333149137" duration="11224000" />
+      <workItem from="1426434245353" duration="10626000" />
+      <workItem from="1426502953680" duration="595000" />
+      <workItem from="1426503568704" duration="14419000" />
+      <workItem from="1426618870934" duration="8740000" />
+      <workItem from="1426630612031" duration="2593000" />
+      <workItem from="1426633226274" duration="2821000" />
+      <workItem from="1426694146815" duration="6006000" />
+      <workItem from="1426701213838" duration="2219000" />
+      <workItem from="1426703555387" duration="9341000" />
+      <workItem from="1426783791799" duration="704000" />
+      <workItem from="1426786470476" duration="3498000" />
+      <workItem from="1426889180850" duration="7144000" />
+      <workItem from="1426957648982" duration="14405000" />
+      <workItem from="1427049199303" duration="8677000" />
+      <workItem from="1427059878042" duration="8052000" />
+      <workItem from="1427076672258" duration="2186000" />
+      <workItem from="1427078882422" duration="2490000" />
+      <workItem from="1427136702876" duration="36454000" />
+      <workItem from="1427431049579" duration="12939000" />
+      <workItem from="1427611421228" duration="10863000" />
+      <workItem from="1427638753505" duration="17025000" />
+      <workItem from="1427716553097" duration="4894000" />
+      <workItem from="1427740419806" duration="1667000" />
+      <workItem from="1427783754651" duration="104000" />
+      <workItem from="1427818402337" duration="1377000" />
+      <workItem from="1427885207409" duration="8415000" />
+      <workItem from="1427910812573" duration="6013000" />
+      <workItem from="1427995123064" duration="2945000" />
+      <workItem from="1427998895153" duration="6211000" />
+      <workItem from="1428076676977" duration="10596000" />
+      <workItem from="1428171254322" duration="7886000" />
+      <workItem from="1428240962415" duration="5084000" />
+      <workItem from="1428266410369" duration="8701000" />
+      <workItem from="1428338253330" duration="17392000" />
+      <workItem from="1428437750479" duration="11279000" />
+      <workItem from="1428540733213" duration="39990000" />
+      <workItem from="1428697207749" duration="5017000" />
+      <workItem from="1428717840997" duration="1813000" />
+      <workItem from="1428937986950" duration="16696000" />
+      <workItem from="1428998834739" duration="6514000" />
+      <workItem from="1429087178092" duration="2732000" />
+      <workItem from="1429098783362" duration="9599000" />
+      <workItem from="1429189320544" duration="2638000" />
+      <workItem from="1429344734481" duration="9418000" />
+      <workItem from="1429478984657" duration="2220000" />
+      <workItem from="1429522980904" duration="2685000" />
+      <workItem from="1429605199680" duration="19406000" />
+      <workItem from="1429695028023" duration="9452000" />
+      <workItem from="1429786586102" duration="7772000" />
+      <workItem from="1429886472065" duration="6836000" />
+      <workItem from="1430132416067" duration="70000" />
+      <workItem from="1430174194974" duration="8044000" />
+      <workItem from="1430237839624" duration="1871000" />
+      <workItem from="1430241475450" duration="7654000" />
+      <workItem from="1430313874409" duration="4256000" />
+      <workItem from="1430432291339" duration="13000" />
+      <workItem from="1430432335807" duration="6640000" />
+      <workItem from="1430487161851" duration="1703000" />
+      <workItem from="1430495564728" duration="5265000" />
+      <workItem from="1430595929374" duration="1659000" />
+      <workItem from="1430597621612" duration="3083000" />
+      <workItem from="1430760329809" duration="15971000" />
+      <workItem from="1430856044978" duration="26465000" />
+      <workItem from="1431074224508" duration="3270000" />
+      <workItem from="1431095152090" duration="2626000" />
+      <workItem from="1431215402821" duration="3930000" />
+      <workItem from="1431266145989" duration="4617000" />
+      <workItem from="1431273711633" duration="17370000" />
+      <workItem from="1431324904080" duration="5143000" />
+      <workItem from="1431337872378" duration="3568000" />
+      <workItem from="1431405507260" duration="5689000" />
+      <workItem from="1431445349456" duration="4293000" />
+      <workItem from="1431521527656" duration="3218000" />
+      <workItem from="1431534222853" duration="20000" />
+      <workItem from="1431534775517" duration="20082000" />
+      <workItem from="1431630359124" duration="16523000" />
+      <workItem from="1431812592321" duration="5622000" />
+      <workItem from="1431842389679" duration="3650000" />
+      <workItem from="1431852224093" duration="22801000" />
+      <workItem from="1431906260634" duration="7954000" />
+      <workItem from="1431934910724" duration="10115000" />
+      <workItem from="1432026246683" duration="11017000" />
+      <workItem from="1432064897640" duration="3983000" />
+      <workItem from="1432069939042" duration="9000" />
+      <workItem from="1432070030340" duration="13250000" />
+      <workItem from="1432113253115" duration="11387000" />
+      <workItem from="1432197588789" duration="10229000" />
+      <workItem from="1432319460132" duration="8817000" />
+      <workItem from="1432374488807" duration="12123000" />
+      <workItem from="1432463060993" duration="10222000" />
+      <workItem from="1432557568101" duration="100000" />
+      <workItem from="1432557778069" duration="14865000" />
+      <workItem from="1432644115626" duration="11858000" />
+      <workItem from="1432723721166" duration="1446000" />
+      <workItem from="1432799095419" duration="3864000" />
+      <workItem from="1432835215508" duration="1039000" />
+      <workItem from="1432920332892" duration="8697000" />
+      <workItem from="1432932135252" duration="651000" />
+      <workItem from="1432932884625" duration="5347000" />
+      <workItem from="1432979670679" duration="13325000" />
+      <workItem from="1433075250246" duration="18555000" />
+      <workItem from="1433152247665" duration="16906000" />
+      <workItem from="1433200170130" duration="1002000" />
+      <workItem from="1433243099452" duration="2734000" />
+      <workItem from="1433250615849" duration="1504000" />
+      <workItem from="1433335700754" duration="9208000" />
+      <workItem from="1433405981965" duration="5152000" />
+      <workItem from="1433444483758" duration="7415000" />
+      <workItem from="1433518601890" duration="12700000" />
+      <workItem from="1433612215400" duration="1974000" />
+      <workItem from="1433682617762" duration="5334000" />
+      <workItem from="1433795931616" duration="4432000" />
+      <workItem from="1433864500283" duration="1173000" />
+      <workItem from="1433865739243" duration="14896000" />
+      <workItem from="1433943739734" duration="5205000" />
+      <workItem from="1433959937221" duration="7131000" />
+      <workItem from="1433992504146" duration="1294000" />
+      <workItem from="1433994344404" duration="504000" />
+      <workItem from="1433994870451" duration="1027000" />
+      <workItem from="1434058340665" duration="6806000" />
+      <workItem from="1434126041625" duration="10192000" />
+      <workItem from="1434159728657" duration="59000" />
+      <workItem from="1434264845378" duration="3020000" />
+      <workItem from="1434318183699" duration="13235000" />
+      <workItem from="1434356284295" duration="11851000" />
+      <workItem from="1434431554627" duration="14053000" />
+      <workItem from="1434543683453" duration="8933000" />
+      <workItem from="1434617040981" duration="13545000" />
+      <workItem from="1434635804564" duration="19852000" />
+      <workItem from="1434697921272" duration="25108000" />
+      <workItem from="1434736134112" duration="1199000" />
+      <workItem from="1434896865853" duration="7711000" />
+      <workItem from="1434961619324" duration="14238000" />
+      <workItem from="1434993288828" duration="8095000" />
+      <workItem from="1435053336771" duration="20477000" />
+      <workItem from="1435155964580" duration="167000" />
+      <workItem from="1435156254804" duration="355000" />
+      <workItem from="1435167878682" duration="1128000" />
+      <workItem from="1435183461494" duration="4476000" />
+      <workItem from="1435235295302" duration="8000000" />
+      <workItem from="1435323792576" duration="9986000" />
+      <workItem from="1435515487984" duration="5647000" />
+      <workItem from="1435573928084" duration="23828000" />
+      <workItem from="1435675323634" duration="1305000" />
+      <workItem from="1435677324090" duration="3434000" />
+      <workItem from="1435751079543" duration="15235000" />
+      <workItem from="1435796703231" duration="2748000" />
+      <workItem from="1435845084204" duration="9860000" />
+      <workItem from="1435995329644" duration="645000" />
+      <workItem from="1436079484751" duration="29000" />
+      <workItem from="1436079537179" duration="831000" />
+      <workItem from="1436153166081" duration="10366000" />
+      <workItem from="1436195606990" duration="636000" />
+      <workItem from="1436342113839" duration="105000" />
+      <workItem from="1436342271636" duration="13000" />
+      <workItem from="1436342322470" duration="8336000" />
+      <workItem from="1436440363453" duration="20000" />
+      <workItem from="1436446495764" duration="9000" />
+      <workItem from="1436446601576" duration="22042000" />
+      <workItem from="1436540763509" duration="172000" />
+      <workItem from="1436541003505" duration="6203000" />
+      <workItem from="1436615155435" duration="4249000" />
+      <workItem from="1436695544095" duration="4628000" />
+      <workItem from="1436739610446" duration="2403000" />
+      <workItem from="1436794732240" duration="5543000" />
+      <workItem from="1437045461630" duration="2733000" />
+      <workItem from="1437053072083" duration="1977000" />
+      <workItem from="1437073583856" duration="999000" />
+      <workItem from="1437139175246" duration="7367000" />
+      <workItem from="1437238944178" duration="4867000" />
+      <workItem from="1437322160496" duration="1114000" />
+      <workItem from="1437398624839" duration="1314000" />
+      <workItem from="1437432207971" duration="22634000" />
+      <workItem from="1437527767418" duration="2115000" />
+      <workItem from="1437579850044" duration="7772000" />
+      <workItem from="1437684089348" duration="625000" />
+      <workItem from="1437734821366" duration="11578000" />
+      <workItem from="1437847432082" duration="40000" />
+      <workItem from="1437847494646" duration="4778000" />
+      <workItem from="1437854597666" duration="5110000" />
+      <workItem from="1437863452884" duration="367000" />
+      <workItem from="1437863826517" duration="34000" />
+      <workItem from="1437863883188" duration="270000" />
+      <workItem from="1437864185948" duration="1375000" />
+      <workItem from="1437866237234" duration="4033000" />
+      <workItem from="1437883714354" duration="13936000" />
+      <workItem from="1438024701075" duration="2182000" />
+      <workItem from="1438035678826" duration="720000" />
+      <workItem from="1438048667971" duration="5557000" />
+      <workItem from="1438089216741" duration="11467000" />
+      <workItem from="1438189980905" duration="10690000" />
+      <workItem from="1438259866424" duration="732000" />
+      <workItem from="1438265679119" duration="4933000" />
+      <workItem from="1438271039240" duration="15218000" />
+      <workItem from="1438358580637" duration="7933000" />
+      <workItem from="1438530458469" duration="629000" />
+      <workItem from="1438596607679" duration="23066000" />
+      <workItem from="1438777569712" duration="18304000" />
+      <workItem from="1438856298418" duration="2829000" />
+      <workItem from="1438893120313" duration="1341000" />
+      <workItem from="1439152293357" duration="2892000" />
+      <workItem from="1439215899955" duration="10274000" />
+      <workItem from="1439308971544" duration="5675000" />
+      <workItem from="1439373141190" duration="16143000" />
+      <workItem from="1439437988098" duration="28403000" />
+      <workItem from="1439567245399" duration="254000" />
+      <workItem from="1439643409726" duration="3010000" />
+      <workItem from="1439646637887" duration="16420000" />
+      <workItem from="1439679207677" duration="12750000" />
+      <workItem from="1439754629891" duration="8534000" />
+      <workItem from="1439812827541" duration="1839000" />
+      <workItem from="1439844367069" duration="11786000" />
+      <workItem from="1439904543195" duration="10680000" />
+      <workItem from="1439940255172" duration="12714000" />
+      <workItem from="1440005201183" duration="26216000" />
+      <workItem from="1440137088014" duration="734000" />
+      <workItem from="1440171286175" duration="4206000" />
+      <workItem from="1440406536326" duration="23658000" />
+      <workItem from="1440578733989" duration="2000" />
+      <workItem from="1440578854043" duration="11873000" />
+      <workItem from="1440877641223" duration="1497000" />
+      <workItem from="1441049141710" duration="8000" />
+      <workItem from="1441049199065" duration="3666000" />
+      <workItem from="1441290741777" duration="937000" />
+      <workItem from="1441293203563" duration="2053000" />
+      <workItem from="1441295483761" duration="5597000" />
+      <workItem from="1441363819318" duration="1587000" />
+      <workItem from="1441365760872" duration="21685000" />
+      <workItem from="1441453480466" duration="24525000" />
+      <workItem from="1441498532964" duration="2357000" />
+      <workItem from="1441549233683" duration="3180000" />
+      <workItem from="1441832990984" duration="906000" />
+      <workItem from="1441836007244" duration="6126000" />
+      <workItem from="1441891810355" duration="4616000" />
+      <workItem from="1442068944060" duration="8359000" />
+      <workItem from="1442105206940" duration="645000" />
+      <workItem from="1442149665981" duration="2216000" />
+      <workItem from="1442159892657" duration="3963000" />
+      <workItem from="1442170955547" duration="8337000" />
+      <workItem from="1442196476525" duration="1572000" />
+      <workItem from="1442268996216" duration="1815000" />
+      <workItem from="1442350181634" duration="1278000" />
+      <workItem from="1442540943115" duration="35000" />
+      <workItem from="1442609789885" duration="11146000" />
+      <workItem from="1442810276354" duration="13928000" />
+      <workItem from="1443091151521" duration="7857000" />
+      <workItem from="1443166233438" duration="52000" />
+      <workItem from="1443166332170" duration="6456000" />
+      <workItem from="1443183630945" duration="2265000" />
+      <workItem from="1443262099233" duration="13578000" />
+      <workItem from="1443339601186" duration="27041000" />
+      <workItem from="1443436323423" duration="8003000" />
+      <workItem from="1453978819406" duration="932000" />
+      <workItem from="1454325882497" duration="62000" />
+      <workItem from="1455784006819" duration="628000" />
+      <workItem from="1456233333399" duration="673000" />
+      <workItem from="1456392672329" duration="3306000" />
+      <workItem from="1457611937902" duration="240000" />
+      <workItem from="1458231563076" duration="552000" />
+      <workItem from="1458232139653" duration="1895000" />
+      <workItem from="1458468232993" duration="53000" />
+      <workItem from="1459429016355" duration="268000" />
+      <workItem from="1462727740528" duration="103000" />
+      <workItem from="1462796601964" duration="50000" />
+      <workItem from="1463856650700" duration="280000" />
+      <workItem from="1463856961531" duration="7549000" />
+      <workItem from="1463908971944" duration="334000" />
+      <workItem from="1463929400955" duration="2563000" />
+      <workItem from="1463947738123" duration="42000" />
+      <workItem from="1485455567947" duration="876000" />
+      <workItem from="1485513892530" duration="3310000" />
+      <workItem from="1485605564364" duration="21000" />
+      <workItem from="1485605635407" duration="883000" />
+      <workItem from="1485795888516" duration="1142000" />
+      <workItem from="1486239388898" duration="46000" />
+      <workItem from="1496665782402" duration="720000" />
+      <workItem from="1496910852788" duration="11000" />
+      <workItem from="1500486286098" duration="745000" />
+      <workItem from="1500489747845" duration="907000" />
+      <workItem from="1500823296110" duration="966000" />
+      <workItem from="1502215266405" duration="1618000" />
+      <workItem from="1502296423522" duration="19000" />
+      <workItem from="1502874930621" duration="210000" />
+      <workItem from="1506349077205" duration="1290000" />
+      <workItem from="1508248323274" duration="626000" />
+      <workItem from="1509964709180" duration="1625000" />
+      <workItem from="1519248498358" duration="1245000" />
+      <workItem from="1519598859697" duration="1346000" />
+      <workItem from="1520325614893" duration="8000" />
+      <workItem from="1520860296068" duration="12000" />
+      <workItem from="1521583107040" duration="689000" />
+      <workItem from="1522004122770" duration="558000" />
+      <workItem from="1522097113206" duration="235000" />
+      <workItem from="1523124262664" duration="1501000" />
+      <workItem from="1523174742654" duration="34000" />
+      <workItem from="1523197546572" duration="7000" />
+      <workItem from="1523285098717" duration="44000" />
+      <workItem from="1535617040405" duration="1445000" />
+      <workItem from="1536596318867" duration="768000" />
+      <workItem from="1536696875245" duration="153000" />
+      <workItem from="1537279548829" duration="71000" />
+      <workItem from="1573567585281" duration="6395000" />
+      <workItem from="1573652747753" duration="13000" />
+      <workItem from="1592505316940" duration="311000" />
+    </task>
+    <task id="LOCAL-00350" summary="1) speed up fo options generation - (about 2 minutes for few thouthands options)">
+      <created>1440005795227</created>
+      <option name="number" value="00350" />
+      <option name="presentableId" value="LOCAL-00350" />
+      <option name="project" value="LOCAL" />
+      <updated>1440005795229</updated>
+    </task>
+    <task id="LOCAL-00351" summary="1) fixed canceling for all options">
+      <created>1440012476514</created>
+      <option name="number" value="00351" />
+      <option name="presentableId" value="LOCAL-00351" />
+      <option name="project" value="LOCAL" />
+      <updated>1440012476514</updated>
+    </task>
+    <task id="LOCAL-00352" summary="1) minor staff">
+      <created>1440013275677</created>
+      <option name="number" value="00352" />
+      <option name="presentableId" value="LOCAL-00352" />
+      <option name="project" value="LOCAL" />
+      <updated>1440013275678</updated>
+    </task>
+    <task id="LOCAL-00353" summary="1) fixing russian translations">
+      <created>1440033727016</created>
+      <option name="number" value="00353" />
+      <option name="presentableId" value="LOCAL-00353" />
+      <option name="project" value="LOCAL" />
+      <updated>1440033727016</updated>
+    </task>
+    <task id="LOCAL-00354" summary="1) fixed option creator js">
+      <created>1440171473250</created>
+      <option name="number" value="00354" />
+      <option name="presentableId" value="LOCAL-00354" />
+      <option name="project" value="LOCAL" />
+      <updated>1440171473251</updated>
+    </task>
+    <task id="LOCAL-00355" summary="1) fixed position canceling">
+      <created>1440174294016</created>
+      <option name="number" value="00355" />
+      <option name="presentableId" value="LOCAL-00355" />
+      <option name="project" value="LOCAL" />
+      <updated>1440174294016</updated>
+    </task>
+    <task id="LOCAL-00356" summary="1) fixed hedge amount">
+      <created>1440411390839</created>
+      <option name="number" value="00356" />
+      <option name="presentableId" value="LOCAL-00356" />
+      <option name="project" value="LOCAL" />
+      <updated>1440411390843</updated>
+    </task>
+    <task id="LOCAL-00357" summary="1) fixed coreCalculation&#10;2) fixed position graph &#10;3) fixed graph utc">
+      <created>1440499201285</created>
+      <option name="number" value="00357" />
+      <option name="presentableId" value="LOCAL-00357" />
+      <option name="project" value="LOCAL" />
+      <updated>1440499201289</updated>
+    </task>
+    <task id="LOCAL-00358" summary="1) fixed position graph 2.0">
+      <created>1440512278217</created>
+      <option name="number" value="00358" />
+      <option name="presentableId" value="LOCAL-00358" />
+      <option name="project" value="LOCAL" />
+      <updated>1440512278217</updated>
+    </task>
+    <task id="LOCAL-00359" summary="1) changed hedge position creation procedure">
+      <created>1440589143220</created>
+      <option name="number" value="00359" />
+      <option name="presentableId" value="LOCAL-00359" />
+      <option name="project" value="LOCAL" />
+      <updated>1440589143223</updated>
+    </task>
+    <task id="LOCAL-00360" summary="1) added positions list to options list">
+      <created>1440602267432</created>
+      <option name="number" value="00360" />
+      <option name="presentableId" value="LOCAL-00360" />
+      <option name="project" value="LOCAL" />
+      <updated>1440602267434</updated>
+    </task>
+    <task id="LOCAL-00361" summary="1) first commit if binary project">
+      <created>1441296278884</created>
+      <option name="number" value="00361" />
+      <option name="presentableId" value="LOCAL-00361" />
+      <option name="project" value="LOCAL" />
+      <updated>1441296278888</updated>
+    </task>
+    <task id="LOCAL-00362" summary="1) first commit if binary project">
+      <created>1441296363660</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1441296363660</updated>
+    </task>
+    <task id="LOCAL-00363" summary="1) fixed options list (percent) and bidder percent">
+      <created>1441369482499</created>
+      <option name="number" value="00363" />
+      <option name="presentableId" value="LOCAL-00363" />
+      <option name="project" value="LOCAL" />
+      <updated>1441369482500</updated>
+    </task>
+    <task id="LOCAL-00364" summary="1) fixed position closing">
+      <created>1441378216724</created>
+      <option name="number" value="00364" />
+      <option name="presentableId" value="LOCAL-00364" />
+      <option name="project" value="LOCAL" />
+      <updated>1441378216724</updated>
+    </task>
+    <task id="LOCAL-00365" summary="1) fixed unfinished positons">
+      <created>1441379635739</created>
+      <option name="number" value="00365" />
+      <option name="presentableId" value="LOCAL-00365" />
+      <option name="project" value="LOCAL" />
+      <updated>1441379635740</updated>
+    </task>
+    <task id="LOCAL-00366" summary="2) added basic OptionType">
+      <created>1441405234853</created>
+      <option name="number" value="00366" />
+      <option name="presentableId" value="LOCAL-00366" />
+      <option name="project" value="LOCAL" />
+      <updated>1441405234853</updated>
+    </task>
+    <task id="LOCAL-00367" summary="1) added option">
+      <created>1441408412937</created>
+      <option name="number" value="00367" />
+      <option name="presentableId" value="LOCAL-00367" />
+      <option name="project" value="LOCAL" />
+      <updated>1441408412937</updated>
+    </task>
+    <task id="LOCAL-00368" summary="1) removed bidAMountType form jsp&#10;">
+      <created>1441408608934</created>
+      <option name="number" value="00368" />
+      <option name="presentableId" value="LOCAL-00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1441408608935</updated>
+    </task>
+    <task id="LOCAL-00369" summary="1) added option type to bo">
+      <created>1441414257997</created>
+      <option name="number" value="00369" />
+      <option name="presentableId" value="LOCAL-00369" />
+      <option name="project" value="LOCAL" />
+      <updated>1441414257997</updated>
+    </task>
+    <task id="LOCAL-00370" summary="1) fixed platfrom html">
+      <created>1441456636494</created>
+      <option name="number" value="00370" />
+      <option name="presentableId" value="LOCAL-00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1441456636495</updated>
+    </task>
+    <task id="LOCAL-00371" summary="1) added pricing to open positions">
+      <created>1441483486721</created>
+      <option name="number" value="00371" />
+      <option name="presentableId" value="LOCAL-00371" />
+      <option name="project" value="LOCAL" />
+      <updated>1441483486721</updated>
+    </task>
+    <task id="LOCAL-00372" summary="1) added positions and options">
+      <created>1441484624870</created>
+      <option name="number" value="00372" />
+      <option name="presentableId" value="LOCAL-00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1441484624870</updated>
+    </task>
+    <task id="LOCAL-00373" summary="1) fixed opening positions and current return amoutn calculations">
+      <created>1441488970304</created>
+      <option name="number" value="00373" />
+      <option name="presentableId" value="LOCAL-00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1441488970304</updated>
+    </task>
+    <task id="LOCAL-00374" summary="1) added asset to canceled positions">
+      <created>1441490753817</created>
+      <option name="number" value="00374" />
+      <option name="presentableId" value="LOCAL-00374" />
+      <option name="project" value="LOCAL" />
+      <updated>1441490753817</updated>
+    </task>
+    <task id="LOCAL-00375" summary="1) added second level cache">
+      <created>1441504412591</created>
+      <option name="number" value="00375" />
+      <option name="presentableId" value="LOCAL-00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1441504412592</updated>
+    </task>
+    <task id="LOCAL-00376" summary="1) fixed generator">
+      <created>1441842425943</created>
+      <option name="number" value="00376" />
+      <option name="presentableId" value="LOCAL-00376" />
+      <option name="project" value="LOCAL" />
+      <updated>1441842425944</updated>
+    </task>
+    <task id="LOCAL-00377" summary="1) orgonized importss">
+      <created>1442075441494</created>
+      <option name="number" value="00377" />
+      <option name="presentableId" value="LOCAL-00377" />
+      <option name="project" value="LOCAL" />
+      <updated>1442075441495</updated>
+    </task>
+    <task id="LOCAL-00378" summary="1) small firebug fix">
+      <created>1442075755746</created>
+      <option name="number" value="00378" />
+      <option name="presentableId" value="LOCAL-00378" />
+      <option name="project" value="LOCAL" />
+      <updated>1442075755746</updated>
+    </task>
+    <task id="LOCAL-00379" summary="1) added short term options">
+      <created>1442189572314</created>
+      <option name="number" value="00379" />
+      <option name="presentableId" value="LOCAL-00379" />
+      <option name="project" value="LOCAL" />
+      <updated>1442189572317</updated>
+    </task>
+    <task id="LOCAL-00380" summary="1) fixed streamer bug">
+      <created>1442190115141</created>
+      <option name="number" value="00380" />
+      <option name="presentableId" value="LOCAL-00380" />
+      <option name="project" value="LOCAL" />
+      <updated>1442190115141</updated>
+    </task>
+    <task id="LOCAL-00381" summary="1) added h">
+      <created>1442190382366</created>
+      <option name="number" value="00381" />
+      <option name="presentableId" value="LOCAL-00381" />
+      <option name="project" value="LOCAL" />
+      <updated>1442190382366</updated>
+    </task>
+    <task id="LOCAL-00382" summary="1) fixed imports">
+      <created>1442610097668</created>
+      <option name="number" value="00382" />
+      <option name="presentableId" value="LOCAL-00382" />
+      <option name="project" value="LOCAL" />
+      <updated>1442610097669</updated>
+    </task>
+    <task id="LOCAL-00383" summary="1) added short term to open positions">
+      <created>1442612666206</created>
+      <option name="number" value="00383" />
+      <option name="presentableId" value="LOCAL-00383" />
+      <option name="project" value="LOCAL" />
+      <updated>1442612666206</updated>
+    </task>
+    <task id="LOCAL-00384" summary="1) fixed loading created options after the missed time of there creation">
+      <created>1442631366096</created>
+      <option name="number" value="00384" />
+      <option name="presentableId" value="LOCAL-00384" />
+      <option name="project" value="LOCAL" />
+      <updated>1442631366096</updated>
+    </task>
+    <task id="LOCAL-00385" summary="1) fixed shortTerm graph &#10;2) added pipSize to graph">
+      <created>1442823527626</created>
+      <option name="number" value="00385" />
+      <option name="presentableId" value="LOCAL-00385" />
+      <option name="project" value="LOCAL" />
+      <updated>1442823527626</updated>
+    </task>
+    <task id="LOCAL-00386" summary="1) fixed 10 minutes options">
+      <created>1443129993082</created>
+      <option name="number" value="00386" />
+      <option name="presentableId" value="LOCAL-00386" />
+      <option name="project" value="LOCAL" />
+      <updated>1443129993084</updated>
+    </task>
+    <task id="LOCAL-00387" summary="1) fixed generation scheduling">
+      <created>1443170046458</created>
+      <option name="number" value="00387" />
+      <option name="presentableId" value="LOCAL-00387" />
+      <option name="project" value="LOCAL" />
+      <updated>1443170046459</updated>
+    </task>
+    <task id="LOCAL-00388" summary="1) fixed generation scheduling 2.0">
+      <created>1443177215195</created>
+      <option name="number" value="00388" />
+      <option name="presentableId" value="LOCAL-00388" />
+      <option name="project" value="LOCAL" />
+      <updated>1443177215195</updated>
+    </task>
+    <task id="LOCAL-00389" summary="2) added filter to positions list">
+      <created>1443354559349</created>
+      <option name="number" value="00389" />
+      <option name="presentableId" value="LOCAL-00389" />
+      <option name="project" value="LOCAL" />
+      <updated>1443354559351</updated>
+    </task>
+    <task id="LOCAL-00390" summary="1) added filters to options">
+      <created>1443362537065</created>
+      <option name="number" value="00390" />
+      <option name="presentableId" value="LOCAL-00390" />
+      <option name="project" value="LOCAL" />
+      <updated>1443362537065</updated>
+    </task>
+    <task id="LOCAL-00391" summary="1) added filters to all position filters">
+      <created>1443364087000</created>
+      <option name="number" value="00391" />
+      <option name="presentableId" value="LOCAL-00391" />
+      <option name="project" value="LOCAL" />
+      <updated>1443364087000</updated>
+    </task>
+    <task id="LOCAL-00392" summary="1) fixed filters css&#10;2) fixed fineshed and unfinished positions">
+      <created>1443374353942</created>
+      <option name="number" value="00392" />
+      <option name="presentableId" value="LOCAL-00392" />
+      <option name="project" value="LOCAL" />
+      <updated>1443374353943</updated>
+    </task>
+    <task id="LOCAL-00393" summary="1) added filter to asset">
+      <created>1443390284991</created>
+      <option name="number" value="00393" />
+      <option name="presentableId" value="LOCAL-00393" />
+      <option name="project" value="LOCAL" />
+      <updated>1443390284992</updated>
+    </task>
+    <task id="LOCAL-00394" summary="1) added filter to quots history">
+      <created>1443439865908</created>
+      <option name="number" value="00394" />
+      <option name="presentableId" value="LOCAL-00394" />
+      <option name="project" value="LOCAL" />
+      <updated>1443439865910</updated>
+    </task>
+    <task id="LOCAL-00395" summary="1) added filters to account">
+      <created>1443444315076</created>
+      <option name="number" value="00395" />
+      <option name="presentableId" value="LOCAL-00395" />
+      <option name="project" value="LOCAL" />
+      <updated>1443444315076</updated>
+    </task>
+    <task id="LOCAL-00396" summary="1) filters...">
+      <created>1443444487996</created>
+      <option name="number" value="00396" />
+      <option name="presentableId" value="LOCAL-00396" />
+      <option name="project" value="LOCAL" />
+      <updated>1443444487996</updated>
+    </task>
+    <task id="LOCAL-00397" summary="1) upgrating frameworks versions">
+      <created>1463932179596</created>
+      <option name="number" value="00397" />
+      <option name="presentableId" value="LOCAL-00397" />
+      <option name="project" value="LOCAL" />
+      <updated>1463932179599</updated>
+    </task>
+    <task id="LOCAL-00398" summary="1) fixed project to run">
+      <created>1502215874685</created>
+      <option name="number" value="00398" />
+      <option name="presentableId" value="LOCAL-00398" />
+      <option name="project" value="LOCAL" />
+      <updated>1502215874686</updated>
+    </task>
+    <option name="localTasksCounter" value="399" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <flatten-packages value="true" />
+      <is-autoscroll-to-source value="true" />
+      <is-preview-enabled value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1) added asset to canceled positions" />
+    <MESSAGE value="1) added second level cache" />
+    <MESSAGE value="1) fixed generator" />
+    <MESSAGE value="1) orgonized importss" />
+    <MESSAGE value="1) small firebug fix" />
+    <MESSAGE value="1) added short term options" />
+    <MESSAGE value="1) fixed streamer bug" />
+    <MESSAGE value="1) added h" />
+    <MESSAGE value="1) fixed imports" />
+    <MESSAGE value="1) added short term to open positions" />
+    <MESSAGE value="1) fixed loading created options after the missed time of there creation" />
+    <MESSAGE value="1) fixed shortTerm graph &#10;2) added pipSize to graph" />
+    <MESSAGE value="1) fixed 10 minutes options" />
+    <MESSAGE value="1) fixed generation scheduling" />
+    <MESSAGE value="1) fixed generation scheduling 2.0" />
+    <MESSAGE value="2) added filter to positions list" />
+    <MESSAGE value="1) added filters to options" />
+    <MESSAGE value="1) added filters to all position filters" />
+    <MESSAGE value="1) fixed filters css&#10;2) fixed fineshed and unfinished positions" />
+    <MESSAGE value="1) added filter to asset" />
+    <MESSAGE value="1) added filter to quots history" />
+    <MESSAGE value="1) added filters to account" />
+    <MESSAGE value="1) filters..." />
+    <MESSAGE value="1) upgrating frameworks versions" />
+    <MESSAGE value="1) fixed project to run" />
+    <option name="LAST_COMMIT_MESSAGE" value="1) fixed project to run" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/goptions/bp/service/impl/AccountService.java</url>
+          <line>199</line>
+          <option name="timeStamp" value="458" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/goptions/bp/security/AccountDetails.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="460" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/goptions/bp/messaging/consumer/QuotesConsumer.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="461" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="openTimeArr[0].equals(&quot;&quot;)" language="JAVA" custom="" />
+        <watch expression="StringUtils.isEmpty(openTimeArr[0])" language="JAVA" custom="" />
+        <watch expression="accountDao.getAll(DetachedCriteria.forClass(Account.class))" language="JAVA" custom="" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="hg4idea.settings">
+    <option name="CHECK_INCOMING_OUTGOING" value="false" />
+    <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>plat:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>grails-2.4.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|plat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
